@@ -1,0 +1,587 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.blurr.voice"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- All Permissions from your app -->
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:6:5-77
+12-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:6:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:7:5-77
+13-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+14-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:8:5-78
+14-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:8:22-75
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:9:5-67
+15-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:10:5-71
+16-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:10:22-68
+17    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+17-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:11:5-13:53
+17-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:12:9-61
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+18-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:14:5-88
+18-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:14:22-85
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+19-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:15:5-89
+19-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:15:22-86
+20    <!-- <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" /> -->
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:17:5-81
+21-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:17:22-78
+22    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+22-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:18:5-79
+22-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:18:22-76
+23
+24    <permission
+24-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/364a2247c064f678d92175a50b54c0f0/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
+25        android:name="com.blurr.voice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/364a2247c064f678d92175a50b54c0f0/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/364a2247c064f678d92175a50b54c0f0/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.blurr.voice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/364a2247c064f678d92175a50b54c0f0/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/364a2247c064f678d92175a50b54c0f0/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:20:5-271:19
+31        android:name="com.blurr.voice.MyApplication"
+31-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:21:9-38
+32        android:allowBackup="true"
+32-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:22:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/364a2247c064f678d92175a50b54c0f0/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
+34        android:dataExtractionRules="@xml/data_extraction_rules"
+34-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:23:9-65
+35        android:debuggable="true"
+36        android:extractNativeLibs="true"
+37        android:fullBackupContent="@xml/backup_rules"
+37-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:24:9-54
+38        android:icon="@drawable/panda_logo_v1_512"
+38-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:25:9-51
+39        android:label="@string/app_name"
+39-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:26:9-41
+40        android:networkSecurityConfig="@xml/network_security_config"
+40-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:27:9-69
+41        android:roundIcon="@drawable/panda_logo_v1_512"
+41-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:28:9-56
+42        android:supportsRtl="true"
+42-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:29:9-35
+43        android:theme="@style/Theme.Blurr" >
+43-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:30:9-43
+44
+45        <!-- Your Activities -->
+46        <activity
+46-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:34:9-49:20
+47            android:name="com.blurr.voice.MainActivity"
+47-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:35:13-41
+48            android:exported="true"
+48-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:36:13-36
+49            android:label="@string/app_name"
+49-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:37:13-45
+50            android:launchMode="singleTop"
+50-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:38:13-43
+51            android:screenOrientation="portrait"
+51-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:39:13-49
+52            android:theme="@style/Theme.Blurr" >
+52-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:40:13-47
+53            <intent-filter>
+53-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:41:13-44:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:42:17-69
+54-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:42:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:43:17-77
+56-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:43:27-74
+57            </intent-filter>
+58
+59            <meta-data
+59-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:46:13-48:53
+60                android:name="android.app.shortcuts"
+60-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:47:17-53
+61                android:resource="@xml/shortcuts" />
+61-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:48:17-50
+62        </activity>
+63        <activity
+63-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:51:9-68:20
+64            android:name="com.blurr.voice.LoginActivity"
+64-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:52:13-42
+65            android:exported="true"
+65-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:53:13-36
+66            android:label="Login_activity"
+66-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:54:13-43
+67            android:screenOrientation="portrait"
+67-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:55:13-49
+68            android:theme="@style/Theme.Blurr" >
+68-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:56:13-47
+69            <intent-filter android:autoVerify="true" >
+69-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:57:13-67:29
+69-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:57:28-53
+70                <action android:name="android.intent.action.VIEW" />
+70-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:58:17-69
+70-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:58:25-66
+71
+72                <category android:name="android.intent.category.BROWSABLE" />
+72-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:60:17-78
+72-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:60:27-75
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:61:17-76
+73-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:61:27-73
+74
+75                <data
+75-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:63:17-66:46
+76                    android:host="black-radius-341415.firebaseapp.com"
+76-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:64:21-71
+77                    android:pathPrefix="/__/auth/action"
+77-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:65:21-57
+78                    android:scheme="https" />
+78-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:66:21-43
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:69:9-74:50
+82            android:name="com.blurr.voice.ChatActivity"
+82-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:70:13-41
+83            android:exported="true"
+83-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:71:13-36
+84            android:label="@string/app_name"
+84-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:72:13-45
+85            android:screenOrientation="portrait"
+85-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:73:13-49
+86            android:theme="@style/Theme.Blurr" />
+86-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:74:13-47
+87        <activity
+87-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:75:9-81:58
+88            android:name="com.blurr.voice.DialogueActivity"
+88-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:76:13-45
+89            android:exported="false"
+89-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:77:13-37
+90            android:label="@string/app_name"
+90-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:78:13-45
+91            android:screenOrientation="portrait"
+91-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:79:13-49
+92            android:theme="@style/Theme.Blurr"
+92-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:80:13-47
+93            android:windowSoftInputMode="adjustResize" />
+93-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:81:13-55
+94        <activity
+94-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:82:9-87:50
+95            android:name="com.blurr.voice.SettingsActivity"
+95-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:83:13-45
+96            android:exported="false"
+96-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:84:13-37
+97            android:label="@string/settings"
+97-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:85:13-45
+98            android:screenOrientation="portrait"
+98-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:86:13-49
+99            android:theme="@style/Theme.Blurr" />
+99-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:87:13-47
+100        <activity
+100-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:88:9-93:50
+101            android:name="com.blurr.voice.OnboardingPermissionsActivity"
+101-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:89:13-58
+102            android:exported="false"
+102-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:90:13-37
+103            android:label="onboarding"
+103-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:91:13-39
+104            android:screenOrientation="portrait"
+104-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:92:13-49
+105            android:theme="@style/Theme.Blurr" />
+105-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:93:13-47
+106        <activity
+106-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:94:9-99:50
+107            android:name="com.blurr.voice.PermissionsActivity"
+107-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:95:13-48
+108            android:exported="false"
+108-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:96:13-37
+109            android:label="@string/permissions_explained_title"
+109-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:97:13-64
+110            android:screenOrientation="portrait"
+110-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:98:13-49
+111            android:theme="@style/Theme.Blurr" />
+111-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:99:13-47
+112        <activity
+112-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:100:9-105:50
+113            android:name="com.blurr.voice.MemoriesActivity"
+113-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:101:13-45
+114            android:exported="false"
+114-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:102:13-37
+115            android:label="My Memories"
+115-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:103:13-40
+116            android:screenOrientation="portrait"
+116-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:104:13-49
+117            android:theme="@style/Theme.Blurr" />
+117-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:105:13-47
+118        <activity
+118-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:106:9-111:50
+119            android:name="com.blurr.voice.PrivacyActivity"
+119-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:107:13-44
+120            android:exported="false"
+120-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:108:13-37
+121            android:label="How Panda Remembers"
+121-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:109:13-48
+122            android:screenOrientation="portrait"
+122-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:110:13-49
+123            android:theme="@style/Theme.Blurr" />
+123-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:111:13-47
+124        <activity
+124-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:112:9-118:50
+125            android:name="com.blurr.voice.RoleRequestActivity"
+125-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:113:13-48
+126            android:excludeFromRecents="true"
+126-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:114:13-46
+127            android:exported="false"
+127-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:115:13-37
+128            android:launchMode="singleTop"
+128-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:116:13-43
+129            android:screenOrientation="portrait"
+129-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:117:13-49
+130            android:theme="@style/Theme.Blurr" />
+130-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:118:13-47
+131        <activity
+131-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:120:9-131:20
+132            android:name="com.blurr.voice.AssistEntryActivity"
+132-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:121:13-48
+133            android:excludeFromRecents="true"
+133-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:122:13-46
+134            android:exported="true"
+134-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:123:13-36
+135            android:launchMode="singleTop"
+135-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:124:13-43
+136            android:screenOrientation="portrait"
+136-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:125:13-49
+137            android:taskAffinity="" >
+137-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:126:13-36
+138            <intent-filter>
+138-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:127:13-130:29
+139                <action android:name="android.intent.action.ASSIST" />
+139-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:128:17-71
+139-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:128:25-68
+140
+141                <category android:name="android.intent.category.DEFAULT" />
+141-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:61:17-76
+141-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:61:27-73
+142            </intent-filter>
+143        </activity>
+144        <activity
+144-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:133:9-138:50
+145            android:name="com.blurr.voice.triggers.ui.TriggersActivity"
+145-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:134:13-57
+146            android:exported="false"
+146-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:135:13-37
+147            android:label="Triggers"
+147-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:136:13-37
+148            android:screenOrientation="portrait"
+148-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:137:13-49
+149            android:theme="@style/Theme.Blurr" />
+149-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:138:13-47
+150        <activity
+150-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:139:9-145:58
+151            android:name="com.blurr.voice.triggers.ui.CreateTriggerActivity"
+151-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:140:13-62
+152            android:exported="false"
+152-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:141:13-37
+153            android:label="Create Trigger"
+153-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:142:13-43
+154            android:screenOrientation="portrait"
+154-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:143:13-49
+155            android:theme="@style/Theme.Blurr"
+155-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:144:13-47
+156            android:windowSoftInputMode="adjustResize" />
+156-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:145:13-55
+157        <activity
+157-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:146:9-151:50
+158            android:name="com.blurr.voice.triggers.ui.ChooseTriggerTypeActivity"
+158-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:147:13-66
+159            android:exported="false"
+159-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:148:13-37
+160            android:label="Choose Trigger Type"
+160-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:149:13-48
+161            android:screenOrientation="portrait"
+161-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:150:13-49
+162            android:theme="@style/Theme.Blurr" />
+162-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:151:13-47
+163        <activity
+163-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:152:9-157:50
+164            android:name="com.blurr.voice.ProPurchaseActivity"
+164-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:153:13-48
+165            android:exported="false"
+165-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:154:13-37
+166            android:label="Upgrade to Pro"
+166-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:155:13-43
+167            android:screenOrientation="portrait"
+167-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:156:13-49
+168            android:theme="@style/Theme.Blurr" />
+168-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:157:13-47
+169        <activity
+169-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:158:9-163:50
+170            android:name="com.blurr.voice.MomentsActivity"
+170-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:159:13-44
+171            android:exported="false"
+171-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:160:13-37
+172            android:label="Moments"
+172-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:161:13-36
+173            android:screenOrientation="portrait"
+173-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:162:13-49
+174            android:theme="@style/Theme.Blurr" />
+174-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:163:13-47
+175
+176        <!-- Your Other Services -->
+177        <service
+177-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:167:9-178:19
+178            android:name="com.blurr.voice.ScreenInteractionService"
+178-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:168:13-53
+179            android:exported="false"
+179-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:169:13-37
+180            android:label="@string/accessibility_service_label"
+180-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:170:13-64
+181            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+181-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:171:13-79
+182            <intent-filter>
+182-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:172:13-174:29
+183                <action android:name="android.accessibilityservice.AccessibilityService" />
+183-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:173:17-92
+183-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:173:25-89
+184            </intent-filter>
+185
+186            <meta-data
+186-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:175:13-177:72
+187                android:name="android.accessibilityservice"
+187-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:176:17-60
+188                android:resource="@xml/accessibility_service_config" />
+188-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:177:17-69
+189        </service>
+190
+191        <!-- <service -->
+192        <!-- android:name=".ContentModerationService" -->
+193        <!-- android:exported="false" -->
+194        <!-- android:foregroundServiceType="dataSync" /> -->
+195
+196
+197        <!-- <service -->
+198        <!-- android:name=".services.AgentTaskService" -->
+199        <!-- android:exported="false" -->
+200        <!-- android:foregroundServiceType="connectedDevice" /> -->
+201
+202        <service
+202-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:190:9-193:58
+203            android:name="com.blurr.voice.v2.AgentService"
+203-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:191:13-44
+204            android:exported="false"
+204-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:192:13-37
+205            android:foregroundServiceType="specialUse" />
+205-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:193:13-55
+206        <service
+206-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:195:9-199:58
+207            android:name="com.blurr.voice.triggers.TriggerMonitoringService"
+207-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:196:13-62
+208            android:enabled="true"
+208-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:197:13-35
+209            android:exported="false"
+209-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:198:13-37
+210            android:foregroundServiceType="specialUse" />
+210-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:199:13-55
+211        <service
+211-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:201:9-205:58
+212            android:name="com.blurr.voice.services.EnhancedWakeWordService"
+212-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:202:13-61
+213            android:enabled="true"
+213-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:203:13-35
+214            android:exported="false"
+214-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:204:13-37
+215            android:foregroundServiceType="microphone" />
+215-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:205:13-55
+216        <service
+216-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:207:9-211:58
+217            android:name="com.blurr.voice.ConversationalAgentService"
+217-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:208:13-55
+218            android:enabled="true"
+218-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:209:13-35
+219            android:exported="false"
+219-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:210:13-37
+220            android:foregroundServiceType="microphone" />
+220-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:211:13-55
+221        <service
+221-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:213:9-216:40
+222            android:name="com.blurr.voice.services.FloatingPandaButtonService"
+222-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:214:13-64
+223            android:enabled="true"
+223-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:215:13-35
+224            android:exported="false" />
+224-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:216:13-37
+225        <service
+225-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:218:9-226:19
+226            android:name="com.blurr.voice.triggers.PandaNotificationListenerService"
+226-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:219:13-70
+227            android:exported="true"
+227-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:220:13-36
+228            android:label="@string/app_name"
+228-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:221:13-45
+229            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+229-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:222:13-87
+230            <intent-filter>
+230-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:223:13-225:29
+231                <action android:name="android.service.notification.NotificationListenerService" />
+231-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:224:17-99
+231-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:224:25-96
+232            </intent-filter>
+233        </service>
+234
+235        <!-- Your Widget Provider -->
+236        <receiver
+236-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:229:9-238:20
+237            android:name="com.blurr.voice.PandaWidgetProvider"
+237-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:230:13-48
+238            android:exported="false" >
+238-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:231:13-37
+239            <intent-filter>
+239-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:232:13-234:29
+240                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+240-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:233:17-84
+240-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:233:25-81
+241            </intent-filter>
+242
+243            <meta-data
+243-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:235:13-237:61
+244                android:name="android.appwidget.provider"
+244-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:236:17-58
+245                android:resource="@xml/panda_widget_info" />
+245-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:237:17-58
+246        </receiver>
+247
+248        <!-- Central receiver for all app triggers -->
+249        <receiver
+249-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:241:9-248:20
+250            android:name="com.blurr.voice.triggers.TriggerReceiver"
+250-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:242:13-53
+251            android:enabled="true"
+251-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:243:13-35
+252            android:exported="false" >
+252-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:244:13-37
+253            <intent-filter>
+253-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:245:13-247:29
+254                <action android:name="com.blurr.voice.action.EXECUTE_TASK" />
+254-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:246:17-78
+254-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:246:25-75
+255            </intent-filter>
+256        </receiver>
+257
+258        <!-- Receiver to reschedule alarms on device reboot -->
+259        <receiver
+259-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:251:9-258:20
+260            android:name="com.blurr.voice.triggers.BootReceiver"
+260-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:252:13-50
+261            android:enabled="true"
+261-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:253:13-35
+262            android:exported="true" >
+262-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:254:13-36
+263            <intent-filter>
+263-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:255:13-257:29
+264                <action android:name="android.intent.action.BOOT_COMPLETED" />
+264-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:256:17-79
+264-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:256:25-76
+265            </intent-filter>
+266        </receiver>
+267
+268        <meta-data
+268-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:259:9-261:57
+269            android:name="preloaded_fonts"
+269-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:260:13-43
+270            android:resource="@array/preloaded_fonts" />
+270-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:261:13-54
+271
+272        <activity
+272-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:263:9-266:52
+273            android:name="com.blurr.voice.TaskLogsListActivity"
+273-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:264:13-49
+274            android:exported="false"
+274-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:265:13-37
+275            android:screenOrientation="portrait" />
+275-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:266:13-49
+276        <activity
+276-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:267:9-270:52
+277            android:name="com.blurr.voice.TaskLogDetailsActivity"
+277-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:268:13-51
+278            android:exported="false"
+278-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:269:13-37
+279            android:screenOrientation="portrait" />
+279-->/storage/emulated/0/AndroidIDEProjects/panda/app/src/main/AndroidManifest.xml:270:13-49
+280
+281        <provider
+281-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/584c8d322a12aa470ee7c635769bbf93/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+282            android:name="androidx.startup.InitializationProvider"
+282-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/584c8d322a12aa470ee7c635769bbf93/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+283            android:authorities="com.blurr.voice.androidx-startup"
+283-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/584c8d322a12aa470ee7c635769bbf93/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+284            android:exported="false" >
+284-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/584c8d322a12aa470ee7c635769bbf93/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+285            <meta-data
+285-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/584c8d322a12aa470ee7c635769bbf93/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+286                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+286-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/584c8d322a12aa470ee7c635769bbf93/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+287                android:value="androidx.startup" />
+287-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/584c8d322a12aa470ee7c635769bbf93/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+288            <meta-data
+288-->[androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/039636811fdcfdf2476c6a1685edcd28/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+289                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+289-->[androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/039636811fdcfdf2476c6a1685edcd28/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+290                android:value="androidx.startup" />
+290-->[androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/039636811fdcfdf2476c6a1685edcd28/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+291            <meta-data
+291-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+292                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+292-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+293                android:value="androidx.startup" />
+293-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+294        </provider>
+295
+296        <receiver
+296-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+297            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+297-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+298            android:directBootAware="false"
+298-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+299            android:enabled="true"
+299-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+300            android:exported="true"
+300-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+301            android:permission="android.permission.DUMP" >
+301-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+302            <intent-filter>
+302-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+303                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+303-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+303-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+304            </intent-filter>
+305            <intent-filter>
+305-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+306                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+306-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+306-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+307            </intent-filter>
+308            <intent-filter>
+308-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+309                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+309-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+309-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+310            </intent-filter>
+311            <intent-filter>
+311-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+312                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+312-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+312-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/8c325ad89c95c48a15afd4ddfc91d2dc/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+313            </intent-filter>
+314        </receiver>
+315    </application>
+316
+317</manifest>

@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_moments_content.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_moments_content.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/item_trigger.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/item_trigger.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/overlay_input_box.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/overlay_input_box.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_memories.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_memories.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/fragment_memories.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/fragment_memories.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_moments.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_moments.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/dialog_wake_word_failure.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/dialog_wake_word_failure.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_onboarding_stepper.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_onboarding_stepper.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_triggers.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_triggers.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/panda_widget_layout.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/panda_widget_layout.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_task_log_details.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_task_log_details.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_permissions.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_permissions.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_dialogue.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_dialogue.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/floating_panda_button.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/floating_panda_button.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_chat.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/spinner_dropdown_item.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_pro_purchase.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_pro_purchase.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/fragment_moments.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/fragment_moments.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_choose_trigger_type.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_choose_trigger_type.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_create_trigger.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_create_trigger.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/assistant_session_view.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/assistant_session_view.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/item_memory.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/item_memory.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/item_message.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/item_message.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/dialog_add_memory.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/dialog_add_memory.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/pro_upgrade_banner.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/pro_upgrade_banner.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/item_task_history.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/item_task_history.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_task_logs_list.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_task_logs_list.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_base_navigation.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_base_navigation.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_privacy.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_privacy.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/spinner_closed_item.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/spinner_closed_item.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_main_content.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_main_content.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/dialog_video_tip.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/dialog_video_tip.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_settings.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/item_app.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/item_app.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/activity_onboarding.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "com.blurr.voice.app-mergeDebugResources-34:/layout/overlay_input_container.xml",
+        "source": "com.blurr.voice.app-main-37:/layout/overlay_input_container.xml"
+    }
+]
